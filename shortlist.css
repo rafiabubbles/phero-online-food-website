@@ -1,0 +1,28 @@
+.shortlist-container{
+margin-top:40px;
+}
+.working-time{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:30px 60px;
+}
+.working-time{
+    text-align:center;
+}
+.vertical-line{
+        width: 1px;
+        height: 100px;
+        background-color: black; 
+        margin: 0 auto;
+    
+}
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .working-time{
+        flex-direction:column;
+    }
+    .vertical-line{
+        height:40px;
+        margin:5px;
+    }
+}

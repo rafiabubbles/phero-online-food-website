@@ -1,0 +1,41 @@
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    padding-top:60px;
+}
+.food-timing h3{
+    margin-top:20px;
+    font-weight:bolder;
+    
+}
+.food-detail p{
+    margin-top:20px;
+}
+.food-timing p{
+    margin-top:20px;
+    
+}
+.link h3{
+    margin-top:20px;
+    font-weight:bolder;
+}
+.link p{
+margin-top:20px;
+}
+.contact h3{
+    margin-top:20px;
+    font-weight:bolder;
+}
+.contact p{
+margin-top:20px;
+}
+.footer-social-icon a{
+    height:42px;
+    width:42px;
+}
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .footer-container{
+        flex-direction:column;
+        margin-left:20px;
+    }
+}
